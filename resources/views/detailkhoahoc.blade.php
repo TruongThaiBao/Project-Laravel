@@ -21,7 +21,7 @@
         </div>
              <div class="col-lg-8">
             <div id="course-sec" class="set-lessions">
-                <div>
+                <!-- <div>
 {{--                    @foreach($vd as $v)--}}
 {{--                        <img class="img-thumbnail" style="height: 208.96px;" src="{{asset('img/sub/'.$v->picture)}}" alt="">--}}
 {{--                    @endforeach--}}
@@ -30,7 +30,7 @@
 {{--                    <strong style="margin: 0px 10px 0px 10px ;">Less {{$l->lession_id}}</strong>--}}
 {{--                    <h4>{{$l->lession_name}}</h4>--}}
 {{--                @endforeach--}}
-            </div>
+            </div> -->
                 @yield('lessionsview')
             </div>
         </div>
